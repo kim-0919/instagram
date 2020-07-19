@@ -25,7 +25,10 @@ SECRET_KEY = 'm$$$czm-$1)qx#kz)12+pb094m0u$)^ez-+v41#xqg4ce#lkbr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '*',
+     ".jirehstagram.shop",
+     ]
 
 
 # Application definition
